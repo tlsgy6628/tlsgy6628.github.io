@@ -1,0 +1,158 @@
+body{
+    background-color: #FFFAFA;
+    font-family: 'Orbit', sans-serif;
+}
+
+a:hover{
+    color: #FFFAFA;
+    transition: 0.5s;
+ }
+
+
+.frame{
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul{
+    margin: 0;
+}
+
+li{
+    display: inline;
+    align-self: center;
+    margin: 0;
+    margin-left: 15px;
+}
+
+.site-name{
+    margin:0;
+    font-size: 24px;
+    color: rgb(124, 103, 103);
+}
+
+.nav-menu{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.contact{
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.links>a{
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+.footer>p{
+    font-weight: 100;
+    font-size: 15px;
+    font-style: italic;
+    margin:0;
+    margin-top: 10px;
+}
+
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.korean-comment{
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.sample{
+    background-color:black;
+}
+
+.sample:hover{
+    color: white;
+    transition:none;
+    transition: 2s;
+}
+
+.type1:hover{
+    background-color:darkred;
+}
+
+.type2:hover{
+    background-color:darkslategray;
+}
+
+.type3:hover{
+    background-color:teal
+}
+
+.english-comment{
+    font-weight: 100;
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: -0.5px;
+    text-align: right;
+}
+.recent-works{
+    display: flex;
+    flex-direction: column;
+}
+.article{
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 120px;
+    justify-content: space-between;
+}
+
+.info{
+    margin: 0px 100px;
+}
+.article-name{
+    font-size: 50px;
+}
+.article-comment{
+    font-size: 30px;
+    font-weight: 500;
+}
+.image {
+    width: 700px;
+    border: 3px solid rgb(174, 174, 174);
+    border-radius: 20px;
+    box-shadow: 40px 40px 10px  #000000;
+}
+.sub-menu{
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background-color: #EFE7E3;
+    border: 1px solid #000000;
+}
+
+.nav-menu li:hover.sub-menu{
+    display: block;
+}
